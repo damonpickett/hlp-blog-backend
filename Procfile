@@ -1,0 +1,1 @@
+web: gunicorn hlp_blog.wsgi
