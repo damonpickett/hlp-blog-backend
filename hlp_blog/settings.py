@@ -155,6 +155,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 CORS_ORIGIN_ALLOW_ALL = True
 
 # Configure Django App for Heroku.
-import django_heroku
-django_heroku.settings(locals())
+import django_on_heroku
+django_on_heroku.settings(locals())
 
